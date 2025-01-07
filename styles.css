@@ -1,0 +1,36 @@
+img {
+    height: auto;
+    width:20%;
+    clip-path: ellipse(50% 50%);
+
+}
+
+h1 {
+    color: navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: blue;
+    font-family: sans-serif;
+}
+h3{
+    color:royalblue;
+    font-family: fantasy;
+}
+p{
+    color: midnightblue;
+    font-weight: bold;
+}
+ body{
+     background-color: lightcyan
+    
+ }
+div{
+    background-color:lightblue ;
+    padding: 80px;
+    outline-style: dashed;
+    outline-color: steelblue;
+    outline-width: 7px;
+
+}
