@@ -1,11 +1,20 @@
-img {
-    height: auto;
-    width:20%;
-    clip-path: ellipse(50% 50%);
 
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
-
+.img {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    padding:5%;
+}
+ img{
+    clip-path: ellipse(50% 50%)
+ }
 h1 {
+    display:flex;
     color: navy;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -27,20 +36,16 @@ p{
     
  }
 div{
+    display: flex;
+    flex-direction: column;
     background-color:lightblue ;
-    padding: 80px;
+    padding: 50px;
     outline-style: dashed;
     outline-color: steelblue;
     outline-width: 7px;
 
 }
 
-img{
-
-display: flex;
-flex-direction: column;
-height: 100vh;
-}
 
 a{
     margin-bottom: 10px;
@@ -54,3 +59,4 @@ a:hover{
 color: greenyellow;
 filter:blur(5px)
 }
+
